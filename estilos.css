@@ -1,0 +1,108 @@
+@import url("./css/cabecalho.css");
+
+:root {
+  /* Cores */
+  --color-dark-gray: #444444;
+  --color-medium-gray: #b9b9b9;
+  --color-beige: #fff5eb;
+  --color-beige2: #f5e6d6;
+  --color-ocre: #c13724;
+  --color-coral: #ee6451;
+  --color-green1: #cbda74;
+  --color-green2: #a2b72b;
+  --color-green3: #eff2e1;
+
+  /* Tipografia */
+  --font-sigmar: "Sigmar", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
+
+  /* Tamanhos de fonte */
+  --font-size-h1: 72pt;
+  --font-size-h2: 42pt;
+  --font-size-h3: 39pt;
+  --font-size-h4: 31pt;
+  --font-size-h5: 25pt;
+  --font-size-subtitle: 25pt;
+  --font-size-body-large-bold: 20pt;
+  --font-size-body-large: 20pt;
+  --font-size-body-regular: 16pt;
+  --font-size-body-small: 13pt;
+
+  /* Altura da linha */
+  --line-height: 120%;
+}
+
+/* Aplicação das variáveis */
+body {
+  font-family: var(--font-poppins);
+  color: var(--color-dark-gray);
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: var(--font-sigmar);
+  font-size: var(--font-size-h1);
+  line-height: var(--line-height);
+}
+
+h2 {
+  font-family: var(--font-sigmar);
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height);
+}
+
+h3 {
+  font-family: var(--font-sigmar);
+  font-size: var(--font-size-h3);
+  line-height: var(--line-height);
+}
+
+h4 {
+  font-family: var(--font-sigmar);
+  font-size: var(--font-size-h4);
+  line-height: var(--line-height);
+}
+
+h5 {
+  font-family: var(--font-sigmar);
+  font-size: var(--font-size-h5);
+  line-height: var(--line-height);
+}
+
+.subtitle {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-subtitle);
+  font-weight: 600;
+  line-height: var(--line-height);
+}
+
+.body-large-bold {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-body-large-bold);
+  font-weight: 600;
+  line-height: var(--line-height);
+}
+
+.body-large {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-body-large);
+  font-weight: 400;
+  line-height: var(--line-height);
+}
+
+.body-regular {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-body-regular);
+  font-weight: 400;
+  line-height: var(--line-height);
+}
+
+.body-small {
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-body-small);
+  font-weight: 400;
+  line-height: var(--line-height);
+}
