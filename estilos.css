@@ -1,4 +1,5 @@
 @import url("./css/cabecalho.css");
+@import url("./css/rodape.css");
 
 :root {
   /* Cores */
@@ -17,16 +18,16 @@
   --font-poppins: "Poppins", sans-serif;
 
   /* Tamanhos de fonte */
-  --font-size-h1: 72pt;
-  --font-size-h2: 42pt;
-  --font-size-h3: 39pt;
-  --font-size-h4: 31pt;
-  --font-size-h5: 25pt;
-  --font-size-subtitle: 25pt;
-  --font-size-body-large-bold: 20pt;
-  --font-size-body-large: 20pt;
-  --font-size-body-regular: 16pt;
-  --font-size-body-small: 13pt;
+  --font-size-h1: 72px;
+  --font-size-h2: 42px;
+  --font-size-h3: 39px;
+  --font-size-h4: 31px;
+  --font-size-h5: 25px;
+  --font-size-subtitle: 25px;
+  --font-size-body-large-bold: 20px;
+  --font-size-body-large: 20px;
+  --font-size-body-regular: 16px;
+  --font-size-body-small: 13px;
 
   /* Altura da linha */
   --line-height: 120%;
