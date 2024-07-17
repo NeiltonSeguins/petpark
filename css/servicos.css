@@ -1,0 +1,30 @@
+.servicos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 80px;
+  align-items: center;
+  width: 100%;
+  height: 375px;
+}
+
+.servicos__titulo {
+  color: var(--color-coral);
+}
+
+.servicos__lista {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1200px;
+}
+
+.servicos__lista > .servicos__item > .servicos__link {
+  background-color: var(--color-beige);
+  text-decoration: none;
+  border-radius: 16px;
+  padding: 16px 24px 16px 24px;
+  font-family: var(--font-sigmar);
+  font-size: 25px;
+  color: var(--color-coral);
+}
