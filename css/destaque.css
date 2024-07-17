@@ -1,0 +1,23 @@
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: var(--color-beige);
+}
+
+.banner__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1200px;
+}
+
+.banner__titulo {
+  max-width: 600px;
+  color: var(--color-green2);
+}
+
+.banner__titulo > span {
+  color: var(--color-coral);
+}
