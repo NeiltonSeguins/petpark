@@ -152,7 +152,6 @@
           </div>
         </div>
       </section>
-
       <section class="ofertas">
         <h2 class="ofertas__titulo">Super ofertas:</h2>
 
@@ -206,7 +205,6 @@
         <button class="ofertas__nav ofertas__nav--prev">←</button>
         <button class="ofertas__nav ofertas__nav--next">→</button>
       </section>
-
       <section class="parceiros">
         <h2 class="parceiros__titulo">Marcas com que trabalhamos</h2>
         <div class="parceiros__lista">
@@ -248,8 +246,42 @@
           </div>
         </div>
       </section>
-
-      <section>Newsletter</section>
+      <section class="newsletter">
+        <h2 class="newsletter__titulo">Assine nossa newsletter!</h2>
+        <p class="newsletter__descricao">
+          Cadastre-se e receba nossas promoções e novidades!
+        </p>
+        <form class="newsletter__formulario">
+          <label for="email" class="newsletter__label">
+            <input
+              type="email"
+              id="email"
+              class="newsletter__input"
+              placeholder="Insira seu endereço de email"
+            />
+          </label>
+          <div class="newsletter__opcoes">
+            <span>Selecione seu pet:</span>
+            <label for="gato" class="newsletter__opcao">
+              <input type="checkbox" id="gato" name="pet" value="gato" /> Gato
+              <span></span>
+            </label>
+            <label for="cao" class="newsletter__opcao">
+              <input type="checkbox" id="cao" name="pet" value="cao" /> Cão
+              <span></span>
+            </label>
+            <label for="roedor" class="newsletter__opcao">
+              <input type="checkbox" id="roedor" name="pet" value="roedor" />
+              <span></span> Roedor
+            </label>
+            <label for="outros" class="newsletter__opcao">
+              <input type="checkbox" id="outros" name="pet" value="outros" />
+              <span></span> Outros
+            </label>
+          </div>
+          <button type="submit" class="newsletter__botao">Inscrever</button>
+        </form>
+      </section>
     </main>
     <footer class="rodape">
       <div class="rodape__container">
