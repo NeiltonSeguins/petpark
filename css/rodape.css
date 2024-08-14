@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 144px;
+  padding: 40px 0;
   width: 100%;
 }
 
@@ -10,18 +10,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 1200px;
+  width: 1200px;
 }
 
 .rodape__icones {
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .rodape__icone {
-  margin-right: 8px;
+  margin-right: 0.5rem;
 }
 
 .rodape__icone:last-child {
