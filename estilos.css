@@ -49,6 +49,10 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 1200px;
+}
+
 h1 {
   font-family: var(--font-sigmar);
   font-size: var(--font-size-h1);

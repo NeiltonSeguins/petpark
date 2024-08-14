@@ -2,10 +2,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 80px;
+  gap: 6rem;
   align-items: center;
   width: 100%;
-  height: 375px;
+  padding: 102px 0;
 }
 
 .servicos__titulo {
@@ -16,18 +16,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 1200px;
 }
 
+/*Substituir as classes pelas tags puras, sem o uso do BEM*/
 .servicos__lista > .servicos__item > .servicos__link {
-  /*Isso é realmente necessário???*/
   position: relative;
   background-color: var(--color-beige);
   text-decoration: none;
-  border-radius: 16px;
-  padding: 16px 24px;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
   font-family: var(--font-sigmar);
-  font-size: 25px;
+  font-size: 1.563rem;
   color: var(--color-coral);
 }
 
@@ -45,23 +44,23 @@
 }
 
 /* Tem alguma forma melhor de fazer isso??? */
-.servicos__item:nth-child(1) > .servicos__link::before {
+.banho-e-tosa > .servicos__link::before {
   background-image: url("../assets/icones/banho-e-tosa.png");
 }
 
-.servicos__item:nth-child(2) > .servicos__link::before {
+.hospedagem > .servicos__link::before {
   background-image: url("../assets/icones/hospedagem.png");
 }
 
-.servicos__item:nth-child(3) > .servicos__link::before {
+.veterinario > .servicos__link::before {
   background-image: url("../assets/icones/veterinario.png");
 }
 
-.servicos__item:nth-child(4) > .servicos__link::before {
+.adestramento > .servicos__link::before {
   background-image: url("../assets/icones/adestramento.png");
 }
 
-.servicos__item:nth-child(5) > .servicos__link::before {
+.petsiter > .servicos__link::before {
   background-image: url("../assets/icones/petsiter.png");
 }
 
@@ -73,5 +72,5 @@
 
 .servicos__link:hover::before {
   transform: scale(1) translateY(50%); /* Aumenta o ícone e ajusta sua posição */
-  left: 10px; /* Move o ícone para o lado do texto */
+  left: 0.5rem; /* Move o ícone para o lado do texto */
 }
