@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  padding: 77px 0;
   background-color: var(--color-beige);
 }
 
@@ -10,11 +10,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 1200px;
+  width: 1200px; /* Usar uma classe só para adicionar este container */
 }
 
 .banner__titulo {
-  max-width: 600px;
+  width: 600px;
   color: var(--color-green2);
 }
 
