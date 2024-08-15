@@ -9,18 +9,18 @@
   padding: 87px 0;
 }
 
-.ofertas__titulo {
+.ofertas-titulo {
   color: var(--color-coral);
   font-size: var(--font-size-h3);
 }
 
-.ofertas__slides {
+.carrossel {
   display: flex;
   gap: 1.25rem; /*Candidato a css var*/
   position: relative;
 }
 
-.ofertas__item {
+.carrossel-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,15 +31,15 @@
   gap: 1rem;
 }
 
-.ofertas__nome,
-.ofertas__preco {
+.carrossel-nome,
+.carrossel-preco {
   /* pensar numa estrategia de definição de font family */
   font-family: var(--font-poppins);
   font-size: var(--font-size-h5);
   font-weight: 600;
 }
 
-.ofertas__nav {
+.carrossel-nav {
   border: none;
   border-radius: 50%;
   padding: 1rem;
@@ -47,7 +47,7 @@
   color: #ffffff; /*Adicionar a cor em variável css correspondente*/
 }
 
-.ofertas__button {
+.carrossel-button {
   position: absolute;
   width: 100%; /*Corrigir esse tamanho fixo em px*/
   display: flex;

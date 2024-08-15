@@ -7,29 +7,28 @@
   padding: 97px 0;
 }
 
-.planos__container {
+.planos-bg {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 2rem;
   background-color: var(--color-coral);
-  width: 1200px;
   padding: 2rem;
   border-radius: 2rem;
 }
 
-.planos__titulo {
+.planos-titulo {
   color: var(--color-beige2);
   font-size: var(--font-size-h3);
 }
 
-.planos__lista {
+.lista-planos {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
 }
 
-.planos__item {
+.cartao {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,22 +38,22 @@
   border-radius: 1rem;
 }
 
-.planos__item > h3 {
+.cartao > h3 {
   font-size: var(--font-size-h4);
 }
 
-.planos__item > p {
+.cartao > p {
   width: 270px;
   text-align: center;
 }
 
-.planos__item > span {
+.cartao > span {
   font-size: var(--font-size-h3);
   font-family: var(--font-sigmar);
   color: var(--color-coral);
 }
 
-.planos__botao {
+.botao-compra {
   border: none;
   background-color: var(--color-coral);
   padding: 8px 24px;

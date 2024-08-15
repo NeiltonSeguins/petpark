@@ -9,13 +9,13 @@
   background-color: #ffffff;
 }
 
-.parceiros__titulo {
+.parceiros-titulo {
   font-size: var(--font-size-h3);
   color: var(--color-coral);
   margin-bottom: 1.25rem;
 }
 
-.parceiros__lista {
+.lista-parceiros {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -23,12 +23,12 @@
   width: 1200px;
 }
 
-.parceiros__item {
+.lista-parceiros > div {
   flex: 1 0 100px;
   width: 100%;
 }
 
-.parceiros__item img {
+.lista-parceiros > div > img {
   max-width: 100%;
   height: auto;
   display: block;
@@ -36,6 +36,6 @@
   transition: transform 0.3s ease;
 }
 
-.parceiros__item:hover img {
+.lista-parceiros > div:hover img {
   transform: scale(1.1);
 }

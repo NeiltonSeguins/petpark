@@ -1,4 +1,4 @@
-.banner {
+.destaque {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,18 +6,16 @@
   background-color: var(--color-beige);
 }
 
-.banner__container {
+.banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1200px; /* Usar uma classe só para adicionar este container */
 }
 
-.banner__titulo {
-  width: 600px;
+.destaque-titulo {
   color: var(--color-green2);
 }
 
-.banner__titulo > span {
+.destaque-titulo > span {
   color: var(--color-coral);
 }

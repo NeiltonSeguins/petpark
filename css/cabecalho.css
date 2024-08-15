@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-.cabecalho__container {
+.cabecalho-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -15,7 +15,7 @@
   margin-top: 24px;
 }
 
-.cabecalho__busca-label {
+.label-busca {
   display: flex;
   flex-grow: 0.5;
   justify-content: space-between;
@@ -25,12 +25,12 @@
   border-radius: 32px;
 }
 
-.cabecalho__busca-input {
+.input-busca {
   border: none;
   outline: none;
 }
 
-.cabecalho__busca-icone {
+.icone-busca {
   display: flex;
   align-items: center;
 
@@ -46,14 +46,14 @@
   }
 }
 
-.cabecalho__botao-login {
+.botao-login {
   background-color: transparent;
   border: none;
   display: flex;
   align-items: center;
 }
 
-.cabecalho__icone-login {
+.icone-login {
   margin-right: 0.5rem;
 }
 
@@ -62,7 +62,7 @@
   align-content: center;
 }
 
-.navegacao__lista {
+.menu-lista {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,14 +70,14 @@
   list-style: none;
 }
 
-.navegacao__link {
+.menu-link {
   text-decoration: none;
   color: var(--color-dark-gray);
   position: relative;
   padding-bottom: 4px;
 }
 
-.navegacao__link::after {
+.menu-link::after {
   content: "";
   position: absolute;
   left: 0;
@@ -89,7 +89,7 @@
 }
 
 /* Efeito hover para expandir a barra */
-.navegacao__link:hover::after,
-.navegacao__link:focus::after {
+.menu-link:hover::after,
+.menu-link:focus::after {
   width: 100%;
 }

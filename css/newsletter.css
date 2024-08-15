@@ -9,16 +9,16 @@
   background-color: var(--color-beige2);
 }
 
-.newsletter__titulo {
+.newsletter h2 {
   font-size: var(--font-size-h3);
   color: var(--color-coral);
 }
 
-.newsletter__descricao {
+.newsletter p {
   font-size: var(--font-size-body-large);
 }
 
-.newsletter__formulario {
+.formulario {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -26,7 +26,7 @@
   align-items: center;
 }
 
-.newsletter__input {
+.formulario-input {
   padding: 8px 24px;
   border: 1px solid var(--color-dark-gray);
   background-color: transparent;
@@ -34,14 +34,14 @@
   flex: 1 0 200px;
 }
 
-.newsletter__opcoes {
+.grupo-opcoes {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   flex-wrap: wrap;
 }
 
-.newsletter__botao {
+.botao-enviar {
   padding: 8px 24px;
   background-color: var(--color-coral);
   color: #ffffff; /*Arrumar o nome dessa variável depois*/
@@ -52,14 +52,14 @@
 }
 
 /*Isso aqui vai contra a metodologia BEM. Corrigir depois*/
-.newsletter__opcao input[type="checkbox"] {
+.opcao input[type="checkbox"] {
   position: absolute;
   opacity: 0;
   cursor: pointer;
 }
 
 /* Estiliza a aparência do checkbox personalizado */
-.newsletter__opcao {
+.opcao {
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -67,7 +67,7 @@
   padding-left: 30px;
 }
 
-.newsletter__opcao input[type="checkbox"] + span {
+.opcao input[type="checkbox"] + span {
   position: absolute;
   left: 0;
   width: 20px;
@@ -77,6 +77,6 @@
   border-radius: 4px;
 }
 
-.newsletter__opcao input[type="checkbox"]:checked + span {
+.opcao input[type="checkbox"]:checked + span {
   background-color: var(--color-coral);
 }
