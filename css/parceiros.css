@@ -6,12 +6,12 @@
   gap: 2rem;
   width: 100%;
   padding: 45px 0;
-  background-color: #ffffff;
+  background-color: var(--cor-neutra-light);
 }
 
 .parceiros-titulo {
-  font-size: var(--font-size-h3);
-  color: var(--color-coral);
+  font-size: var(var(--font-size-xl));
+  color: var(--cor-primaria-light);
   margin-bottom: 1.25rem;
 }
 
@@ -20,7 +20,10 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 6rem;
-  width: 1200px;
+
+  @media (max-width: 768px) {
+    gap: 2.5rem;
+  }
 }
 
 .lista-parceiros > div {

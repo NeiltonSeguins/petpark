@@ -6,16 +6,16 @@
   gap: 2rem;
   width: 100%;
   padding: 70px 0;
-  background-color: var(--color-beige2);
+  background-color: var(--cor-secundaria-light);
 }
 
 .newsletter h2 {
-  font-size: var(--font-size-h3);
-  color: var(--color-coral);
+  font-size: var(--font-size-xl);
+  color: var(--cor-primaria-light);
 }
 
 .newsletter p {
-  font-size: var(--font-size-body-large);
+  font-size: var(--font-size-xm);
 }
 
 .formulario {
@@ -28,7 +28,7 @@
 
 .formulario-input {
   padding: 8px 24px;
-  border: 1px solid var(--color-dark-gray);
+  border: 1px solid var(--cor-neutra-dark);
   background-color: transparent;
   border-radius: 32px;
   flex: 1 0 200px;
@@ -43,15 +43,14 @@
 
 .botao-enviar {
   padding: 8px 24px;
-  background-color: var(--color-coral);
-  color: #ffffff; /*Arrumar o nome dessa variável depois*/
+  background-color: var(--cor-primaria-light);
+  color: var(--cor-neutra-light);
   border: none;
   border-radius: 32rem;
   cursor: pointer;
-  font-size: var(--font-size-body-large);
+  font-size: var(--font-size-xm);
 }
 
-/*Isso aqui vai contra a metodologia BEM. Corrigir depois*/
 .opcao input[type="checkbox"] {
   position: absolute;
   opacity: 0;
@@ -72,11 +71,11 @@
   left: 0;
   width: 20px;
   height: 20px;
-  border: 1px solid var(--color-dark-gray);
+  border: 1px solid var(--cor-neutra-dark);
   background-color: transparent;
   border-radius: 4px;
 }
 
 .opcao input[type="checkbox"]:checked + span {
-  background-color: var(--color-coral);
+  background-color: var(--cor-primaria-light);
 }

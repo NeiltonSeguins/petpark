@@ -9,25 +9,30 @@
 }
 
 .servicos-titulo {
-  color: var(--color-coral);
+  color: var(--cor-primaria-light);
 }
 
 .servicos-lista {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 768px) {
+    height: 200px;
+    justify-content: space-around;
+  }
 }
 
-/*Substituir as classes pelas tags puras, sem o uso do BEM*/
 .servicos-lista > li > .link {
   position: relative;
-  background-color: var(--color-beige);
+  background-color: var(--cor-secundaria-light);
   text-decoration: none;
   border-radius: 1rem;
   padding: 1rem 1.25rem;
   font-family: var(--font-sigmar);
   font-size: 1.563rem;
-  color: var(--color-coral);
+  color: var(--cor-primaria-light);
 }
 
 .link::before {
@@ -43,7 +48,6 @@
   transition: transform 0.3s ease, left 0.3s ease; /* Transição suave */
 }
 
-/* Tem alguma forma melhor de fazer isso??? */
 .banho-e-tosa > .link::before {
   background-image: url("../assets/icones/banho-e-tosa.png");
 }
