@@ -3,14 +3,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: var(--gap-m);
   width: 100%;
-  padding: 45px 0;
+  padding: var(--padding-xxl) 0;
   background-color: var(--cor-neutra-light);
 }
 
 .parceiros-titulo {
-  font-size: var(var(--font-size-xl));
   color: var(--cor-primaria-light);
   margin-bottom: 1.25rem;
 }
@@ -19,10 +18,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 6rem;
+  gap: var(--gap-xxxl);
 
   @media (max-width: 768px) {
-    gap: 2.5rem;
+    gap: var(--gap-xxl);
   }
 }
 

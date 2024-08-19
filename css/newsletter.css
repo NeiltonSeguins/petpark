@@ -3,14 +3,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: var(--gap-xl);
   width: 100%;
-  padding: 70px 0;
+  padding: var(--padding-4xl) 0;
   background-color: var(--cor-secundaria-light);
 }
 
 .newsletter h2 {
-  font-size: var(--font-size-xl);
   color: var(--cor-primaria-light);
 }
 
@@ -22,27 +21,27 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: var(--padding-m);
   align-items: center;
 }
 
 .formulario-input {
-  padding: 8px 24px;
+  padding: var(--padding-s) var(--padding-l);
   border: 1px solid var(--cor-neutra-dark);
   background-color: transparent;
-  border-radius: 32px;
+  border-radius: 2rem;
   flex: 1 0 200px;
 }
 
 .grupo-opcoes {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--padding-s);
   flex-wrap: wrap;
 }
 
 .botao-enviar {
-  padding: 8px 24px;
+  padding: var(--padding-s) var(--padding-l);
   background-color: var(--cor-primaria-light);
   color: var(--cor-neutra-light);
   border: none;

@@ -36,6 +36,26 @@
 
   /* Altura da linha */
   --line-height: 120%;
+
+  /*Espaçamentos*/
+  --padding-xs: 0.25rem;
+  --padding-s: 0.5rem;
+  --padding-m: 1rem;
+  --padding-l: 1.5rem;
+  --padding-xl: 2rem;
+  --padding-xxl: 2.5rem;
+  --padding-xxl: 3rem;
+  --padding-3xl: 3.75rem;
+  --padding-4xl: 4rem;
+  --padding-5xl: 4.75rem;
+
+  --gap-xs: 0.25rem;
+  --gap-s: 0.5rem;
+  --gap-m: 1rem;
+  --gap-l: 1.5rem;
+  --gap-xl: 2rem;
+  --gap-xxl: 2.5rem;
+  --gap-xxxl: 6rem;
 }
 
 /* Aplicação das variáveis */
@@ -48,34 +68,33 @@ body {
   background-color: var(--cor-neutra-light);
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: var(--font-sigmar);
-  font-size: var(--font-size-xxxl);
   line-height: var(--line-height);
+}
+
+h1 {
+  font-size: var(--font-size-xxxl);
 }
 
 h2 {
-  font-family: var(--font-sigmar);
   font-size: var(--font-size-xxl);
-  line-height: var(--line-height);
 }
 
 h3 {
-  font-family: var(--font-sigmar);
   font-size: var(--font-size-xl);
-  line-height: var(--line-height);
 }
 
 h4 {
-  font-family: var(--font-sigmar);
   font-size: var(--font-size-l);
-  line-height: var(--line-height);
 }
 
 h5 {
-  font-family: var(--font-sigmar);
   font-size: var(--font-size-xm);
-  line-height: var(--line-height);
 }
 
 .container {
