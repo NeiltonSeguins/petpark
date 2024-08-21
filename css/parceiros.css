@@ -38,6 +38,13 @@
   transition: transform 0.3s ease;
 }
 
-.lista-parceiros > div:hover img {
+.lista-parceiros > div:nth-child(odd):hover img {
   transform: scale(1.1);
+  box-shadow: 0 0 20px var(--cor-primaria-box-shadow);
 }
+
+.lista-parceiros > div:nth-child(even):hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px var(--cor-secundaria-box-shadow);
+}
+

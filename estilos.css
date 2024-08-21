@@ -20,6 +20,9 @@
   --cor-neutra-medio: #b9b9b9;
   --cor-neutra-light: #ffffff;
 
+  --cor-primaria-box-shadow: rgb(193, 55, 36, 0.4);
+  --cor-secundaria-box-shadow: rgb(162, 183, 43, 0.4);
+
   /* Tipografia */
   --font-sigmar: "Sigmar", sans-serif;
   --font-poppins: "Poppins", sans-serif;
@@ -32,7 +35,7 @@
   --font-size-xm: 1.563rem;
   --font-size-m: 1.25rem;
   --font-size-b: 1rem;
-  --font-size-s: 0.875;
+  --font-size-s: 0.813rem;
 
   /* Altura da linha */
   --line-height: 120%;
