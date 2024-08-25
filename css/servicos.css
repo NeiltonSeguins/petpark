@@ -20,7 +20,7 @@
   align-items: center;
 
   @media (max-width: 768px) {
-    height: 200px;
+    height: 300px;
     justify-content: space-around;
   }
 }
