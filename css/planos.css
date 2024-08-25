@@ -18,6 +18,10 @@
 
 .planos-titulo {
   color: var(--cor-secundaria-light);
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
 }
 
 .lista-planos {
