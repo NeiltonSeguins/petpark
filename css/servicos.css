@@ -15,6 +15,7 @@
 .servicos-lista {
   display: flex;
   flex-wrap: wrap;
+  gap: var(--gap-m);
   justify-content: space-between;
   align-items: center;
 
@@ -31,7 +32,7 @@
   border-radius: 1rem;
   padding: var(--padding-m) var(--padding-l);
   font-family: var(--font-sigmar);
-  font-size: var(--font-size-xm);
+  font-size: var(--font-size-m);
   color: var(--cor-primaria-light);
 }
 
